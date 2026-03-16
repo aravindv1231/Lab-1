@@ -1,0 +1,44 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Dashboard container */
+div {
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Card styling (reusable component style) */
+.card {
+  background-color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #07182b;
+  color: rgb(35, 6, 6);
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}

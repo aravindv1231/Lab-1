@@ -1,0 +1,22 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef1f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Root container (React app mount point) */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
